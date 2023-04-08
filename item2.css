@@ -1,0 +1,142 @@
+@font-face {
+  font-family:'FormulaOneBold';
+  src: url(Formula1-Bold.otf);
+}
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff; /* background color for header */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* add a box shadow for a 3D effect */
+  }
+  
+  .logo img {
+    height: 50px; /* height of logo image */
+    width: 50px; 
+  }
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: "FormulaOneBold", sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }  
+
+  /*Box 1 (Next Race)*/
+  .upcoming-race {
+    display: flex;
+    align-items: center;
+    font-family: "FormulaOneBold";
+    background-color: #000000;
+    padding: 20px;
+    border: 2px solid #302f2f;
+    color: #fff;
+  }
+  
+  .upcoming-race img {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .race-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .race-info h2 {
+    margin: 0;
+  }
+  
+  .schedule-link {
+    margin-top: 10px;
+    color: #ff0000;
+    text-decoration: none;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 2px;
+  }
+
+  /* Results styles */
+.results {
+  margin-top: 30px;
+  font-family: "FormulaOneBold";
+}
+
+/* Race list styles */
+.race-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.race-list li {
+  margin: 0 10px;
+}
+
+.race-list a {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.race-list a:hover,
+.race-list a.active {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Results table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Table rows hover effect */
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+  

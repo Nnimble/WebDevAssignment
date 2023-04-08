@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2d3436;
+}
+
+li,
+a,
+input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #dfe6e9;
+  text-decoration: none;
+}
+
+/* 
+  Defference between style :
+
+  Style 1 : 
+    - Logo @ left
+    - Nav items  @ center
+    - Search/Button @ right
+  Style 2 :
+    - Logo @ left
+    - Nav items @ right
+    - Search/Button @ right
+  Style 3 : 
+    - Logo @ center
+    - Nav items @ left
+    - Search/Button @ right
+
+*/
+
+header {
+  display: flex;
+
+  /* 
+    Style 1 : make justify-content to space-between 
+    Style 2 : make justify-content to flex-end
+    Style 3 : make justify-content to space-between
+  */
+  justify-content: space-around;
+  padding: 25px 5%;
+}
+
+.logo {
+  cursor: pointer;
+
+  /* 
+    Style 1 : do not add margin-right
+    Style 2 : add margin-right set to auto
+    Style 3 : add order set to 2 | add margin set to auto
+  */
+  order: 2;
+  margin: auto;
+}
+
+.nav-link {
+  list-style: none;
+}
+
+.nav-link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-link li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-link a:hover {
+  color: #00b894;
+}
+
+.search {
+  /* 
+    Style 1 : do not add margin-left
+    Style 2 : add margin-left set to x-px
+    Style 3 : add order set to 3
+  */
+  order: 3;
+  border: 0;
+  border-bottom: 1px solid #e3e3e3;
+  background: transparent;
+  padding: 2.5px 5px;
+}
+
+.search:focus {
+  outline: none;
+}

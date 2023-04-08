@@ -1,0 +1,221 @@
+@font-face {
+    font-family:'FormulaOneBold';
+    src: url(Formula1-Bold.otf);
+    font-family:'FormulaOneRegular';
+    src: url(Formula1-Regular.otf);
+  }
+  /* Header */
+  .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #ff0000; /* background color for header */
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* add a box shadow for a 3D effect */
+    }
+    
+    .logo img {
+      height: 50px; /* height of logo image */
+      width: 50px; 
+    }
+  /* Navigation Bar Styles */
+  nav {
+      background-color: #333;
+      color: #000000;
+      padding: 10px;
+      font-family: 'FormulaOneRegular';
+
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-family: 'FormulaOneRegular';
+
+    }
+    
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+    }
+    
+    nav a:hover {
+      background-color: #444;
+    }  
+
+     /* Drivers 1st 2nd 3rd */
+     .drivers-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        font-family: 'FormulaOneRegular';
+      }
+      
+      .driver-box {
+        width: 30%;
+        background-color: #fff;
+        border: 2px solid #ff0000;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        position: relative;
+      }
+      
+      .driver-box img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      
+      .driver-info {
+        margin-top: 10px;
+      }
+      
+      .driver-position {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 28px;
+        font-weight: bold;
+        background-color: #f1ba52;
+        color: hsl(0, 0%, 0%);
+        padding: 10px 20px;
+        border-radius: 50%;
+      }
+      
+      .driver-name {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      .driver-points {
+        margin-top: 5px;
+      }
+      
+         /* Drivers 4th-20th */
+         .driver-box {
+          display: inline-block;
+          width: 30%;
+          margin: 1%;
+          padding: 1%;
+          text-align: center;
+          border: 2px solid #333;
+          border-radius: 10px;
+          box-shadow: 5px 5px 5px #888;
+          font-family: 'FormulaOneRegular';
+        }
+        
+        .driver-name {
+          font-weight: bold;
+          font-size: 20px;
+          margin-top: 10px;
+        }
+        
+        .driver-position {
+          font-size: 14px;
+          margin-top: 5px;
+        }
+        
+        .driver-points {
+          font-size: 14px;
+          margin-top: 5px;
+        }
+        
+        .driver-img {
+          width: 100%;
+          height: auto;
+          margin-top: 10px;
+          border-radius: 50%;
+        }
+        .driver-rank {
+          position: absolute;
+          top: -20px;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 16px;
+          font-weight: bold;
+          background-color: #ff0000;
+          color: hsl(0, 100%, 100%);
+          padding: 10px 20px;
+          border-radius: 50%;
+        }
+        
+          
+          /* Rookies */
+          h2 {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'FormulaOneRegular';
+          }
+          
+          .rookies {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+          }
+          
+          .rookie-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            max-width: 800px;
+            width: 100%;
+            border-color: #000000;
+            font-family: 'FormulaOneRegular';
+          }
+          
+          .rookie-box img {
+            max-width: 250px;
+            height: auto;
+            margin-right: 20px;
+          }
+          
+          .rookie-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+          }
+          
+          .rookie-info h3 {
+            margin: 0;
+            font-size: 24px;
+
+          }
+          
+          .rookie-info p {
+            margin: 0;
+            font-size: 18px;
+
+          }
+          
+          .rookie-text {
+            padding: 20px;
+            background-color: #000000;
+            flex-grow: 1;
+
+          }
+          
+          .rookie-text p {
+            margin: 0;
+            font-size: 18px;
+
+          }
+          
+          
+          

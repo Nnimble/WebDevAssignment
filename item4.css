@@ -1,0 +1,171 @@
+@font-face {
+    font-family:'FormulaOneBold';
+    src: url(Formula1-Bold.otf);
+    font-family:'FormulaOneRegular';
+    src: url(Formula1-Regular.otf);
+  }
+  /* Header */
+  .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff; /* background color for header */
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* add a box shadow for a 3D effect */
+    }
+    
+    .logo img {
+      height: 50px; /* height of logo image */
+      width: 50px; 
+    }
+  /* Navigation Bar Styles */
+  nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      font-family: 'FormulaOneRegular';
+
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-family: 'FormulaOneRegular';
+
+    }
+    
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+    }
+    
+    nav a:hover {
+      background-color: #444;
+    }  
+     /* 1st Place Constructors */
+     
+     .container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+    
+    .first-place {
+      width: 400px;
+      background-color: #444444;
+      padding: 20px;
+      border-radius: 10px;
+      font-family: 'FormulaOneRegular';
+      color: #fff;
+    }
+    
+    .rank {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .team-info {
+      margin-top: 20px;
+    }
+    
+    .team-info h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .team-info p {
+      font-size: 16px;
+      margin: 0;
+    }
+    
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .drivers-table {
+      width: 400px;
+      background-color: #444444;
+      padding: 20px;
+      border-radius: 10px;
+      font-family: 'FormulaOneRegular';
+      color: #fff;
+    }
+    
+    .drivers-table h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    thead {
+      font-weight: bold;
+    }
+    
+    th, td {
+      padding: 5px;
+      text-align: center;
+    }
+    
+    th {
+      border-bottom: 1px solid black;
+    }
+
+      
+      /* Constructors Ranking */
+
+      .constructors-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      
+      .constructors-box {
+        background-color: #444444;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-family: 'FormulaOneRegular';
+        color: #fff;
+      }
+      
+      .constructors-box img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+      }
+      
+      .constructors-box h3 {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+      
+      .constructors-box p {
+        font-size: 14px;
+        margin: 5px 0;
+      }
+      
+      .constructors-box .ranking {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ff8c00;
+        margin-bottom: 10px;
+      }
+      
